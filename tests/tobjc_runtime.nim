@@ -1,4 +1,4 @@
-import darwin.objc.runtime
+import darwin/objc/runtime
 
 type
     NSNumber = ptr object of NSObject
