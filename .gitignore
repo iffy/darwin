@@ -1,1 +1,3 @@
 nimcache/
+do_c2nim
+_build/

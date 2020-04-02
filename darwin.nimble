@@ -8,3 +8,7 @@ license       = "MIT"
 # Dependencies
 
 requires "nim >= 0.17.0"
+
+
+task c2nim, "Run c2nim":  
+  exec "nim c --hints:off -r do_c2nim"
